@@ -1,69 +1,83 @@
 
 header {
-    background-color: gray;
+    background-color: #597761;
     padding: 30px;
     font-size: 25px;
     color: white;
     margin: 0 auto;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 3px;
 }
 
 a {
     text-decoration: none;
-    color: #4aaaa5;
+    color: white;
 }
 
 a:visited {
     text-decoration: none;
-    color: #4aaaa5;
+    color: white;
 }
 
 #titlename {
-    color: #4aaaa5;
+    color: white;
     font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #portfolio {
     float: right;
-    color: #4aaaa5;
+    color: white;
     padding-right: 15px;
     font-size: 20px;
     padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 #contact {
     float: right;
-    color: #4aaaa5;
+    color: white;
     padding-right: 15px;
     font-size: 20px;
     padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 #about {
     float: right;
-    color: #4aaaa5;
+    color: white;
     padding-right: 15px;
     font-size: 20px;
     padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 body {
-    background-color: #ffff;
     width: 960px;
     margin: 0 auto;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/hip-square.png");
 }
 
 h1 {
-    color: #4aaaa5;
+    color: #597761;
     font-size: 35px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
+
+
 }
 
 h2 {
-    color: #4aaaa5;
+    color: #597761;
     font-size: 25px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Roboto Slab', serif;
+
 }
 
 img {
@@ -71,7 +85,7 @@ img {
     height: 267px;
     width: 200px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .clearfix {
@@ -139,48 +153,65 @@ input[type=submit] {
     position: fixed;
     width: 150px;
     height: 150px;
-    background: #4aaaa5;
+    background: darkgray;
     color: white;
     text-align: center;
   }
   
 .box-1 {
-    top: 30%;
+    top: 35%;
+    left: 25%;
+    background-image: url("../images/unc mj school.jpg");
+    background-size: 150px 150px;
   }
   
 .box-2 {
-    top: 30%;
-    right: 53%;
+    top: 35%;
+    right: 42%;
+    background-image: url("../images/fleet\ feet.jpeg");
+    background-size: 150px 150px;
   }
 
 .box-3 {
-    right: 53%;
-    bottom: 20%;
+    right: 42%;
+    bottom: 15%;
+    background-image: url("../images/IBM\ logo.jpg");
+    background-size: 150px 150px;
   }
   
 .box-4 {
-    bottom: 20%;
+    bottom: 15%;
+    left: 25%;
+    background-image: url("../images/zift.png");
+    background-size: 150px 150px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
   }
 
 .box-5 {
-    bottom: 20%;
-    right: 40%;
+    bottom: 15%;
+    right: 25%;
+    background-image: url("../images/cropped-logo-initials-2.jpg");
+    background-size: 150px 150px;
 }
 
 .box-6 {
-    top: 30%;
-    right: 40%;
+    top: 35%;
+    right: 25%;
+    background-image: url("../images/vert&vogue.jpeg");
+    background-size: 150px 150px;
 }
 
 #footer {
     margin: 0px;
-    background-color: gray;
+    background-color: #597761;
     height: 45px;
     overflow: auto;
     color: #fff;
     font-size: small;
     text-align: center;
     border-top-style: solid;
-    border-top-color: #4aaaa5;
-    border-top-width: 5px;
+    border-top-color: white;
+    border-top-width: 3px;
 }
